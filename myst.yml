@@ -1,0 +1,78 @@
+version: 1
+project:
+  title: >-
+    "Tapping into Professional-Grade Data: The FRED Example"
+  abstract: |
+    Safely Saving API Keys And Managing Cache
+  github: PatrickJHess/Volume-Four-Chapter-One
+  copyright: >-
+    2025 by the University of Virginia Darden School Foundation,
+    Charlottesville, VA.
+  authors:
+    - name: Financial Python
+
+
+#  exports:
+#    - format: pdf
+#      template: lapreprint-typst
+#      output: book.pdf      # The filename it creates
+#      id: my_pdf_export     # The "name" of this specific job
+
+  downloads:
+    - id: my_pdf_export     # ONLY USE THE ID HERE
+      title: Download PDF
+  toc:
+    - title: Introduction
+      file: intro.md
+    - title: Getting Started
+      children:
+        - title: Interacting With Jupyter Books
+          file: Interacting With Jupyter Books.md
+    - title: 'Chapter One: Accessing Data With API Keys-Getting Data From FRED'
+      children:
+        - title: Chapter Highlights
+          file: Chapter_One_Highlights.md
+        - title: Managing Data Access
+          file: API_Keys_Cache.md
+        - title: Putting our API Key Managment and Data Pipeline to Work
+          file: notebooks/FRED_Data.ipynb
+        - title: Getting Constant Maturity Yields From FRED
+          file: notebooks/Getting_Constant_Maturity_Yields_From_FRED.ipynb
+        - title: Chapter Summary
+          file: Chapter_Summary.md
+        - title: The FredReader Class & Securing Your API Key
+          file: imported_functions.md
+    - title: Other Chapters Of The Volume
+      children:
+        - title: 'Chapter Two: Par Yields Adnd The Term Structure Of Interest Rates'
+          url: https://patrickjhess.github.io/Volume-Four-Chapter-Two/
+        - title: 'Chapters Three: Are Yields To Maturity Useful'
+          url: https://patrickjhess.github.io/Volume-Four-Chapter-Three/
+        - title: 'Chapters Four: Interest Rate Risk- Duration And Convesxity'
+          url: https://patrickjhess.github.io/Volume-Four-Chapter-Four/
+
+  jupyter:
+    binder:
+      repo: PatrickJHess/Volume-Three-Chapter-Four
+      ref: master
+ 
+site:
+  template: book-theme
+  options:
+    repository: https://github.com/PatrickJHess/Volume-Four-Chapter-One
+    style: static/custom.css
+    base_url: /Volume-Four-Chapter-One/
+    thebe: true  # This enables the engine
+    # The 'binder' block MUST be indented under 'options'
+    binder:
+      repo: PatrickJHess/Volume-Four-Chapter-One
+      ref: master
+      binderUrl: https://mybinder.org
+
+
+
+
+
+
+      
+
