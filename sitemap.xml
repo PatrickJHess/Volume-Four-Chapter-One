@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/interacting-with-jupyter-books</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chapter-one-highlights</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/api-keys-cache</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/fred-data</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/getting-constant-maturity-yields-from-fred</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chapter-summary</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/imported-functions</loc>
+  </url>
+</urlset>
