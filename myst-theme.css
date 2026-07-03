@@ -39,6 +39,10 @@ a[target^="_blank_"]:hover::after {
     transform: scale(1.05); /* Subtle pop on hover */
     background: #fff;
 }
+/* Make the main reading area wider on larger screens */
+main {
+    max-width: 90% !important; 
+}
 
 /* Hide on mobile to prevent UI clutter */
 @media (max-width: 768px) {
