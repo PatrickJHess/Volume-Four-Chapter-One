@@ -48,7 +48,7 @@ project:
           url: https://patrickjhess.github.io/Volume-Four-Chapter-Two/
         - title: 'Chapters Three: Are Yields To Maturity Useful'
           url: https://patrickjhess.github.io/Volume-Four-Chapter-Three/
-        - title: 'Chapters Four: Interest Rate Risk- Duration And Convesxity'
+        - title: 'Chapters Four:  📈 Interest Rate Risk: From Static Metrics to Dynamic Simulation'
           url: https://patrickjhess.github.io/Volume-Four-Chapter-Four/
 
   jupyter:

@@ -11,4 +11,3 @@ pandas_market_calendars
 scipy
 pandas-datareader
 pandas<3.0
-jupyterlab-myst
