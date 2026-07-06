@@ -1,4 +1,4 @@
-# Managing Data Access
+# 🗝️ Managing Data Access
 ## **💡 Why We "Over-Engineer" Accessing Data From FRED (A Free Data Source)**
 
 Because in the real world of quantitative finance, **data is costly**.

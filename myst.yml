@@ -30,17 +30,17 @@ project:
           file: Interacting With Jupyter Books.md
     - title: 'Chapter One: Accessing Data With API Keys-Getting Data From FRED'
       children:
-        - title: Chapter Highlights
+        - title: ✨ Chapter Highlights
           file: Chapter_One_Highlights.md
-        - title: Managing Data Access
+        - title: 🗝️ Managing Data Access
           file: API_Keys_Cache.md
-        - title: Putting our API Key Managment and Data Pipeline to Work
+        - title: 🛠️ Putting our API Key Managment and Data Pipeline to Work
           file: notebooks/FRED_Data.ipynb
-        - title: Getting Constant Maturity Yields From FRED
+        - title: 📈 Getting Constant Maturity Yields From FRED
           file: notebooks/Getting_Constant_Maturity_Yields_From_FRED.ipynb
-        - title: Chapter Summary
+        - title: 📝 Chapter Summary
           file: Chapter_Summary.md
-        - title: The FredReader Class & Securing Your API Key
+        - title: Imported Functions
           file: imported_functions.md
     - title: Other Chapters Of The Volume
       children:
