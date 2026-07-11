@@ -1,0 +1,3 @@
+[submodule "shared_files_finpy"]
+	path = shared_files_finpy
+	url = https://github.com/PatrickJHess/shared_files_finpy.git
