@@ -27,7 +27,7 @@ project:
     - title: Getting Started
       children:
         - title: Interacting With Jupyter Books
-          file: Interacting With Jupyter Books.md
+          file: shared_files_finpy/Interacting With Jupyter Books
     - title: 'Chapter One: Accessing Data With API Keys-Getting Data From FRED'
       children:
         - title: ✨ Chapter Highlights
@@ -60,7 +60,7 @@ site:
   template: book-theme
   options:
     repository: https://github.com/PatrickJHess/Volume-Four-Chapter-One
-    style: static/custom.css
+    style: shared_files_finpy/static/custom.css
     base_url: /Volume-Four-Chapter-One/
     thebe: true  # This enables the engine
     # The 'binder' block MUST be indented under 'options'
