@@ -40,7 +40,6 @@ a[target^="_blank_"]:hover::after {
     background: #fff;
 }
 
-
 /* Hide on mobile to prevent UI clutter */
 @media (max-width: 768px) {
     .colab-sticky-link {
@@ -133,13 +132,4 @@ div.thebe-output-area pre {
 /* Optional: Hide the confusing built-in Rocket menu completely*/
 [aria-label*="Launch"], [title*="Launch"] {
     display: none !important;
-}
-
-/* Lock the left-hand sidebar TOC in place so it follows the user as they scroll */
-nav.article-toc, 
-aside.sidebar-primary {
-    position: sticky !important;
-    top: 80px !important; /* Adjust this value if it overlaps your top navigation */
-    max-height: calc(100vh - 80px); /* Ensures the menu itself can still be scrolled if it's very long */
-    overflow-y: auto;
 }
