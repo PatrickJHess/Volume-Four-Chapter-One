@@ -11,7 +11,7 @@ It’s tempting to just write a quick script to hit the Federal Reserve Economic
 
 * When you graduate from FRED to premium institutional data providers (like Bloomberg, Refinitiv, or metered APIs like AlphaVantage, and Massive), you are heavily restricted by two things:  
     
-  * **Hard Quotas**: Even for pay services the number of API requests are often time sensitive or you are paying per megabyte downloaded. The premium versions are always restricted.
+  * **Hard Quotas**: Even for pay services the number of API requests are often time sensitive or you are paying per megabyte downloaded. The freemium versions are always restricted.
   * **Speeding Limits**: Asking for data too fast will result in temporary IP bans (HTTP 429 Too Many Requests).
 
 * If your code blindly requests 10 years of data every time you run a cell in a notebook, you will quickly exhaust your API quota.
