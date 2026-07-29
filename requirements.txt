@@ -12,3 +12,4 @@ scipy
 pandas-datareader
 pandas<3.0
 jupyterlab-myst
+html5lib
