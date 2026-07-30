@@ -53,7 +53,7 @@ project:
 
   jupyter:
     binder:
-      repo: PatrickJHess/Volume-Three-Chapter-Four
+      repo: PatrickJHess/Volume-Four-Chapter-One
       ref: master
  
 site:
